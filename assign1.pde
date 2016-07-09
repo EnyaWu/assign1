@@ -6,6 +6,7 @@ PImage enemy;
 PImage treasure;
 int e_X,e_Y,t_X,t_Y,hpLength,X;
 
+
 void setup() {
   size(640,480);
   background(0);
