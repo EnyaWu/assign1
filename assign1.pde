@@ -11,9 +11,9 @@ void setup() {
   size(640,480);
   background(0);
   e_X=0;
-  e_Y=floor(random(480));
+  e_Y=floor(random(420));
   t_X=floor(random(620));
-  t_Y=floor(random(440));
+  t_Y=floor(random(460));
   hpLength=floor(random(180));
   fighter = loadImage("img/fighter.png");
   bg1 = loadImage("img/bg1.png");
