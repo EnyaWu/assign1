@@ -12,8 +12,8 @@ void setup() {
   background(0);
   e_X=0;
   e_Y=floor(random(420));
-  t_X=floor(random(620));
-  t_Y=floor(random(460));
+  t_X=floor(random(590));
+  t_Y=floor(random(430));
   hpLength=floor(random(180));
   fighter = loadImage("img/fighter.png");
   bg1 = loadImage("img/bg1.png");
@@ -24,9 +24,9 @@ void setup() {
 }
 
 void draw() {
-  //background
-  image(bg2,X%640,0);
-  image(bg1,X%640-640,0);
+  //background  
+  image(bg1Image,x_bg1 % 1280 -640,0);
+  image(bg2Image,(x_bg1+640) % 1280 -640,0);
   X+=1;
   //HP
   colorMode(RGB);
