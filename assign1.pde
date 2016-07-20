@@ -25,8 +25,8 @@ void setup() {
 
 void draw() {
   //background  
-  image(bg1Image,x_bg1 % 1280 -640,0);
-  image(bg2Image,(x_bg1+640) % 1280 -640,0);
+  image(bg1,X%1280-640,0);
+  image(bg2,(X+640)%1280-640,0);
   X+=1;
   //HP
   colorMode(RGB);
